@@ -1,13 +1,10 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 💸 E TICARET
 
-Description of the app ...
+INI PERTAMA KALI NYOBA GITHUB DAN STREAMLIT 
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://COBASTREAMLIT.streamlit.app/)
 
 ## GitHub Codespaces
 
