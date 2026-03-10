@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('💸 E-TICARET')
 
-st.write('Hello world!')
+st.info ('BU ETICARET UYGULAMASI')
