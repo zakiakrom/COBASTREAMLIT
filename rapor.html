@@ -1,0 +1,258 @@
+<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #2c3e50; max-width: 950px; margin: 20px auto; padding: 40px; border: 1px solid #e1e4e8; border-radius: 12px; background-color: #ffffff; box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
+
+    <div style="text-align: center; border-bottom: 3px solid #3498db; padding-bottom: 30px; margin-bottom: 40px;">
+        <h1 style="color: #1a5a96; margin-bottom: 10px; font-size: 32px; text-transform: uppercase; letter-spacing: 1px;">Laporan Proyek Akhir</h1>
+        <h2 style="color: #34495e; font-weight: 500; font-size: 24px; margin-top: 0;">Sistem Analisis Risiko Cerdas & Perkiraan Pendapatan E-Commerce</h2>
+    </div>
+
+    <div style="margin-bottom: 35px;">
+        <h3 style="background-color: #3498db; color: white; padding: 12px 20px; border-radius: 6px; font-size: 20px;">1. Tujuan Proyek</h3>
+        <p style="padding: 0 10px;">Tujuan utama proyek ini adalah meningkatkan keberlanjutan finansial bisnis e-commerce melalui[cite: 3]:</p>
+        <div style="display: flex; gap: 20px; margin-top: 15px;">
+            <div style="flex: 1; background: #f1f9ff; padding: 20px; border-left: 5px solid #3498db; border-radius: 4px;">
+                <strong style="color: #2980b9; display: block; margin-bottom: 8px;">⚠️ Manajemen Risiko</strong>
+                Mengidentifikasi transaksi atau kombinasi produk-diskon yang merugikan perusahaan[cite: 4].
+            </div>
+            <div style="flex: 1; background: #f1f9ff; padding: 20px; border-left: 5px solid #3498db; border-radius: 4px;">
+                <strong style="color: #2980b9; display: block; margin-bottom: 8px;">📈 Perkiraan Pendapatan</strong>
+                Mengidentifikasi produk tren wilayah dan memprediksi potensi pendapatan secara akurat[cite: 6].
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 35px;">
+        <h3 style="background-color: #3498db; color: white; padding: 12px 20px; border-radius: 6px; font-size: 20px;">2. Ruang Lingkup Proyek</h3>
+        
+        <div style="padding: 0 10px;">
+            <h4 style="color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px;">A. Cakupan Data (Data Scope)</h4>
+            <ul style="list-style-type: square; padding-left: 20px;">
+                <li style="margin-bottom: 8px;"><strong>Data Historis:</strong> ID transaksi, timestamp, ID produk, kategori, dan harga asli[cite: 9].</li>
+                <li style="margin-bottom: 8px;"><strong>Data Finansial:</strong> Besaran diskon dan harga jual akhir[cite: 10].</li>
+                <li style="margin-bottom: 8px;"><strong>Data Geografis:</strong> Informasi wilayah pembeli untuk pemetaan distribusi[cite: 10].</li>
+            </ul>
+
+            <h4 style="color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 25px;">B. Batasan Teknis Machine Learning</h4>
+            <div style="background-color: #fdfdfd; border: 1px solid #eee; padding: 15px; border-radius: 8px;">
+                <p><strong>Modul Risiko:</strong> Klasifikasi & Anomaly Detection untuk mendeteksi "Negative Margin"[cite: 12, 13].</p>
+                <p><strong>Modul Pendapatan:</strong> Regresi & Time-Series (Prophet/Moving Average) untuk tren regional dan *forecasting*[cite: 14, 15, 16].</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 35px;">
+        <h3 style="background-color: #3498db; color: white; padding: 12px 20px; border-radius: 6px; font-size: 20px;">3. Fungsionalitas Sistem (Menu Dashboard)</h3>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+            <thead>
+                <tr style="background-color: #ecf0f1;">
+                    <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Fitur Utama</th>
+                    <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Deskripsi Fungsional</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 12px;"><strong>Overview Dashboard</strong></td>
+                    <td style="border: 1px solid #ddd; padding: 12px;">Penjualan total, jumlah pesanan real-time, dan prediksi pendapatan[cite: 18, 19, 20].</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 12px;"><strong>Regional Analysis</strong></td>
+                    <td style="border: 1px solid #ddd; padding: 12px;">Heatmap geospatial volume penjualan per provinsi/kota[cite: 21, 22].</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 12px;"><strong>Trend Tracker</strong></td>
+                    <td style="border: 1px solid #ddd; padding: 12px;">Fitur Trend Picker harian/mingguan/bulanan untuk produk unggulan[cite: 24, 25, 26].</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 12px;"><strong>Risk Alert</strong></td>
+                    <td style="border: 1px solid #ddd; padding: 12px;">Notifikasi otomatis transaksi merugikan dan analisis pembatalan[cite: 28, 29, 30].</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="margin-bottom: 35px;">
+        <h3 style="background-color: #3498db; color: white; padding: 12px 20px; border-radius: 6px; font-size: 20px;">4. Jadwal Kerja (Timeline)</h3>
+        <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+                <thead>
+                    <tr style="background-color: #2c3e50; color: white;">
+                        <th style="border: 1px solid #444; padding: 10px;">Minggu</th>
+                        <th style="border: 1px solid #444; padding: 10px;">Kegiatan</th>
+                        <th style="border: 1px solid #444; padding: 10px;">PJ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Project Initiation & Environment Setup [cite: 39]</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Semua</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2-5</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Data Cleaning, EDA, & Perencanaan ML [cite: 39]</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Afif, Dhiya, Bilal</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6-7</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">UI Layout & Prototyping (Streamlit) [cite: 39]</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Zaki</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8-10</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Implementasi Model ML (Risiko, Tren, Prediksi) [cite: 40]</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Dhiya, Bilal</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">11-13</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Integrasi Database, UI, & Testing [cite: 40]</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Afif, Zaki</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">14</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Finalisasi & Presentasi [cite: 40]</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Semua</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div style="background-color: #f8f9fa; border-radius: 8px; padding: 25px; border: 1px solid #eee;">
+        <h3 style="color: #2c3e50; margin-top: 0; font-size: 20px;">🛠️ Perpustakaan Teknis (Tech Stack)</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; text-align: center;">
+            <div style="padding: 10px; background: white; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);"><strong>Pandas & NumPy</strong><br><small>Data Processing</small> [cite: 43]</div>
+            <div style="padding: 10px; background: white; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);"><strong>Scikit-learn</strong><br><small>Machine Learning</small> [cite: 44]</div>
+            <div style="padding: 10px; background: white; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);"><strong>Matplotlib & Seaborn</strong><br><small>Visualization</small> [cite: 45]</div>
+            <div style="padding: 10px; background: white; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);"><strong>Streamlit</strong><br><small>Web UI</small> [cite: 46]</div>
+        </div>
+    </div>
+
+        <div style="margin-bottom: 45px;">
+        <div style="display: flex; align-items: center; background-color: #2980b9; color: white; padding: 10px 20px; border-radius: 8px 8px 0 0;">
+            <h2 style="margin: 0; font-size: 20px;">HAFTA 4 — TRENDING PREDICTION</h2>
+        </div>
+        <div style="border: 1px solid #2980b9; border-top: none; padding: 20px; border-radius: 0 0 8px 8px;">
+            <p><strong>Deskripsi:</strong> Melatih model klasifikasi untuk memprediksi probabilitas sebuah produk menjadi "trending" (1) atau tidak (0) di wilayah tertentu guna mendukung keputusan stok di dashboard Streamlit.</p>
+            
+            <h4 style="color: #2980b9; margin-bottom: 10px;">Detail Teknis & Evaluasi Model</h4>
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 14px;">
+                <thead>
+                    <tr style="background-color: #f2f2f2; text-align: left;">
+                        <th style="padding: 10px; border: 1px solid #ddd;">Model</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">AUC-Test</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">CV-AUC (5-fold)</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: #e8f4fd;">
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Random Forest</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Tertinggi ✓</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Stabil</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Model Terpilih</strong></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Gradient Boosting</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Tinggi</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Stabil</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Alternatif</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background-color: #fff9db; padding: 15px; border-left: 5px solid #f1c40f; border-radius: 4px;">
+                <strong style="color: #856404;">Solusi Masalah:</strong> Menggunakan <code>stratify=y</code> untuk menangani <em>class imbalance</em> dan menyimpan <code>encoders.pkl</code> agar konsisten di seluruh notebook.
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 45px;">
+        <div style="display: flex; align-items: center; background-color: #16a085; color: white; padding: 10px 20px; border-radius: 8px 8px 0 0;">
+            <h2 style="margin: 0; font-size: 20px;">HAFTA 5 — REGION ANALYSIS</h2>
+        </div>
+        <div style="border: 1px solid #16a085; border-top: none; padding: 20px; border-radius: 0 0 8px 8px;">
+            <p><strong>Deskripsi:</strong> Analisis distribusi penjualan di 4 wilayah utama (South, North, East, West) untuk memetakan performa geografis.</p>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 15px;">
+                <div style="background: #f9f9f9; padding: 15px; border-radius: 8px;">
+                    <h4 style="margin-top: 0; color: #16a085;">Visualisasi Utama</h4>
+                    <ul style="padding-left: 20px; font-size: 14px;">
+                        <li>Heatmap Region × Kategori</li>
+                        <li>Top 10 Kota Berdasarkan Sales</li>
+                        <li>Tren Bulanan per Wilayah</li>
+                    </ul>
+                </div>
+                <div style="background: #f9f9f9; padding: 15px; border-radius: 8px;">
+                    <h4 style="margin-top: 0; color: #16a085;">Output Integrasi</h4>
+                    <p style="font-size: 14px;">Menghasilkan file <code>le_region.pkl</code> dan <code>le_category.pkl</code> untuk standarisasi input pada antarmuka Streamlit.</p>
+                </div>
+            </div>
+
+            <p style="font-size: 13px; color: #666; font-style: italic; margin-top: 15px; border: 1px dashed #ccc; padding: 10px; text-align: center;">
+                [Catatan: Skala grafik disesuaikan (dibagi 1jt) untuk meningkatkan keterbacaan data finansial]
+            </p>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 35px;">
+        <div style="display: flex; align-items: center; background-color: #8e44ad; color: white; padding: 10px 20px; border-radius: 8px 8px 0 0;">
+            <h2 style="margin: 0; font-size: 20px;">HAFTA 5 — REVENUE PREDICTION</h2>
+        </div>
+        <div style="border: 1px solid #8e44ad; border-top: none; padding: 20px; border-radius: 0 0 8px 8px;">
+            <p><strong>Deskripsi:</strong> Implementasi model regresi untuk memprediksi nilai penjualan (Sales) masa depan berdasarkan fitur produk dan tren wilayah.</p>
+
+            <h4 style="color: #8e44ad; margin-bottom: 10px;">Performa Regresi (Target: log_sales)</h4>
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 14px; text-align: center;">
+                <thead>
+                    <tr style="background-color: #f2f2f2;">
+                        <th style="padding: 10px; border: 1px solid #ddd;">Model</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">MAE</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">RMSE</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">R² Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: #f4eef8;">
+                        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>Random Forest</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Rendah</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Rendah</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Tertinggi ✓</strong></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Gradient Boosting</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Sedang</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Sedang</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Tinggi</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background-color: #fcedff; border: 1px solid #dcb7e5; padding: 15px; border-radius: 8px;">
+                <h4 style="margin: 0 0 10px 0; color: #8e44ad; font-size: 15px;">Key Optimization:</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 14px;">
+                    <li><strong>Transformasi Data:</strong> Menggunakan <code>log1p</code> untuk menangani data yang <em>skewed</em> dan mengembalikannya dengan <code>expm1</code>.</li>
+                    <li><strong>Robust Loading:</strong> Implementasi blok <code>try/except</code> untuk memastikan model dan encoder termuat dengan benar di sistem yang berbeda.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; color: #95a5a6; font-size: 12px;">
+        <p>Laporan Teknis Proyek AI - Tim: Afif, Dhiya, Bilal, Zaki</p>
+        <p>Teknologi: Scikit-Learn, Pandas, Streamlit, Python 3.x</p>
+    </div>
+
+</div>
+
+
+<!-- hafta 4 -->
+
+<!-- <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 950px; margin: 20px auto; padding: 40px; border: 1px solid #e0e0e0; border-radius: 12px; background-color: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+
+    <div style="text-align: center; border-bottom: 4px solid #2c3e50; padding-bottom: 20px; margin-bottom: 35px;">
+        <h1 style="color: #2c3e50; margin-bottom: 5px; font-size: 26px; text-transform: uppercase; letter-spacing: 1px;">Laporan Kemajuan Proyek: Analisis & Prediksi E-Commerce</h1>
+        <p style="color: #7f8c8d; font-size: 16px; margin-top: 0;">Fokus: Machine Learning Modelling & Regional Analysis (Minggu 4 - 5)</p>
+    </div> -->
+
+
+
+</div>
